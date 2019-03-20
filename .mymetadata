@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="WYWebGIS"
+  id="myeclipse.1498571454248"
+  context-root="/WYWebGIS"
+  j2ee-spec="6.0"
+  archive="WYWebGIS.war">
+  <attributes>
+    <attribute name="webrootdir" value="&lt;prjroot&gt;" />
+  </attributes>
+</project-module>
+

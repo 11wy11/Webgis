@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+.toolbar
+{
+	display:-webkit-flex;
+	display:flex;
+	width:300px;
+	height:auto;
+	margin:0;padding:10px;list-style:none;background-color:#eee;}
+}
+.toolbar-item{
+	
+	height:500px;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	width:100px;height:100px;
+	border:1px solid #aaa;
+	text-align:center;
+}
+
+.toolbar-item-buffer{
+	background-position: 0 300px;
+	.toolbar-item-buffer:hover{
+	background-position:0 350px;
+	};
+	background-image:url(../images/buffer.png)
+	
+}
+.toolbar-item-info
+{
+	background-position: 0 400px;
+	&:hover{
+	background-position:0 450px;
+	};
+	background-image:url(../images/Info.png)
+	
+}
+.toolbar-item-options
+{
+	background-position: 0 500px;
+	&:hover{
+	background-position:0 550px;
+	};
+	background-image:url(../images/options.png)
+	
+}
+.toolbar-item-rect
+{
+	background-position: 0 600px;
+	&:hover{
+	background-position:0 650px;
+	};
+	background-image:url(../images/Rect.png)
+	
+}
+.toolbar-item-select
+{
+	
+	
+}
+.toolbar-item-stastistics
+{
+	
+	
+}
